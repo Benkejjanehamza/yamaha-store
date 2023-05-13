@@ -1,0 +1,104 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background: url(ASSET/fonthistoire.jpg) no-repeat;
+    background-size: cover;
+    /* background-color: #030303;
+    background-image: linear-gradient(180deg, #030303 0%, #10064e 100%); */
+    overflow: hidden;
+    
+    
+    
+}
+#title{
+    font-size: 70px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#title:hover{
+    font-size: 75px;
+}
+
+.container_accueil{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid salmon;
+    
+}
+
+.container_accueil .navlink ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+
+   
+}
+.fabriquant{
+    margin-left: 100px;
+
+}
+
+
+ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    font-size: 33px;
+    }
+
+.piano{
+    height: 100px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.main_content{
+    height: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.credit{
+    text-align: center;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+/* @media screen and (min-width: 200px) and (max-width: 400px ){
+    
+    p{
+        color: red;
+    }
+} */
+ 

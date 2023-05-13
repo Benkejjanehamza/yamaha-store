@@ -1,0 +1,140 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    /* background: url(ASSET/wp5503061-gradient-4k-wallpapers.jpg); */
+    background: url(ASSET/andrew-schultz-0NIBzU9xZ_Q-unsplash.jpg) no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+
+}
+
+#title{
+    font-size: 70px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title:hover{
+    font-size: 75px;
+}
+
+.container_accueil{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container_accueil .navlink ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+
+   
+}
+.fabriquant{
+    margin-left: 100px;
+
+}
+
+
+ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a:hover{
+font-size: 33px;
+}
+
+
+.piano{
+    height: 100px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.container_section{
+    max-width: 1600px;
+    margin: 0 auto ;
+    padding: 100px 0 20px;
+    color: white;
+    
+
+}
+
+
+
+p{
+    font-size: 3.1em;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+
+
+.pianotype{
+
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pianoaqueue, .pianodroit{
+    height: 300px;
+    border-radius: 100px;
+    padding: 10px;
+    
+
+}
+
+h6{
+    color: white;
+    font-size: 15px;
+}
+
+.credit{
+    text-align: center;
+}
+
+.pianoaqueue{
+    opacity: 0.7;
+}
+
+.pianodroit{
+    opacity: 0.7;
+
+
+}
+.pianoaqueue:hover{
+    height: 310px;
+    box-shadow: 2px 0px 1px white;
+    opacity: 1;
+}
+
+.pianodroit:hover{
+    height: 310px;
+    box-shadow: 2px 0px 1px white;
+    opacity: 1;
+
+
+
+}
+
